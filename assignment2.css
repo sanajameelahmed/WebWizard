@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom right,#f78da7 0%, #f78da7 60%, #c68df6 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .card {
+    width: 400px;
+    height: 650px;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    text-align: center;
+  }
+  .card-header {
+    width: 400px;
+    height: 200px;
+    position: relative;
+  }
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: white;
+    position: absolute;
+    bottom: -70px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  }
+  .profile-pic img {
+    width: 100px;
+  }
+  .card-body {
+    padding: 60px 20px 20px;
+  }
+  .card-body h2 {
+    margin: 10px;
+    font-size: 40px;
+  }
+  .card-body p {
+    color: #999;
+    font-size: 14px;
+    margin: 5px 0 15px;
+  }
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  .stats div {
+    font-size: 15px;
+  }
+  .stats span {
+    display: block;
+    font-weight: bold;
+    color: #2196f3;
+    font-size: 30px;
+  }
+  button {
+    background-color: #fdd835;
+    border: none;
+    padding: 20px 140px;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 15px;
+    transition: background-color 0.3s;
+    font-size: 20px;
+  }
+  utton:hover {
+    background-color: #fbc02d;
+  }
+  
+  .card-footer {
+    font-size: 20px;
+    color: #666;
+    padding: 0 35px 25px;
+   text-align: justify;
+  }
