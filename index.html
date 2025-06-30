@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="./calculator.js"></script>
+    <link rel="stylesheet" href="./calculator.css">
+    <link href="https://fonts.cdnfonts.com/css/calculator" rel="stylesheet">
+</head>
+
+<body>
+    <div id="bg">
+        <h1>Smart Calculator</h1>
+        <input type="text" id="input_field" disabled>
+        <div>
+            <button onclick="handleInput(this.innerText)" id="number">MRC</button>
+            <button onclick="handleInput(this.innerText)" id="number">M+</button>
+            <button onclick="handleInput(this.innerText)" id="number">M-</button>
+            <button onclick="handleInput(this.innerText)" id="number">√</button>
+            <button onclick="handleInput(this.innerText)" id="number">%</button>
+        </div>
+        <div>
+            <button onclick="eraseLastCharacter()"  id="number">→</button>
+            <button onclick="handleInput(this.innerText)" id="number">7</button>
+            <button onclick="handleInput(this.innerText)" id="number">8</button>
+            <button onclick="handleInput(this.innerText)" id="number">9</button>
+            <button onclick="handleInput(this.innerText)" id="number">/</button>
+        </div>
+        <div>
+            <button onclick="clearInput()" id="number">CE</button>
+            <button onclick="handleInput(this.innerText)" id="number">4</button>
+            <button onclick="handleInput(this.innerText)" id="number">5</button>
+            <button onclick="handleInput(this.innerText)" id="number">6</button>
+            <button onclick="handleInput(this.innerText)" id="number">*</button>
+        </div>
+         <div>
+            <button onclick="clearInput()" id="number">AC</button>
+            <button onclick="handleInput(this.innerText)" id="number">1</button>
+            <button onclick="handleInput(this.innerText)" id="number">2</button>
+            <button onclick="handleInput(this.innerText)" id="number">3</button>
+            <button onclick="handleInput(this.innerText)" id="number">-</button>
+        </div>
+         <div>
+            <button onclick="handleInput(this.innerText)" id="number">0</button>
+            <button onclick="handleInput(this.innerText)" id="number">00</button>
+            <button onclick="handleInput(this.innerText)" id="number">.</button>
+            <button onclick='calculate()' id="number">=</button>
+            <button onclick="handleInput(this.innerText)" id="number">+</button>
+        </div>
+    </div>
+</body>
+
+</html>
